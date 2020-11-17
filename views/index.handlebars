@@ -1,0 +1,36 @@
+<!-- main header -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Extra Credit</h1>
+        <p class="lead">A financial management tool.</p>
+    </div>
+</div>
+
+<!-- container for all buttons -->
+<div class="btn-container row">
+
+    {{!-- sign up  --}}
+    {{> signUp}}
+
+    {{!-- my wallet  --}}
+    {{> wallet}}
+
+    {{!-- perks calculator  --}}
+    {{> perksCalc}}
+
+
+
+    {{!-- credit card browser  --}}
+    {{> creditCardBrowser}}
+
+    {{!-- fun facts  --}}
+    {{> funFacts}}
+
+    {{data}}
+
+</div>
+
+<footer class="sticky-footer">Copyright Team Extra Credit © 2020</footer>
+
+<!-- main script.js file -->
+<script type="text/javascript" src="./assets/js/script.js"></script>
